@@ -42,3 +42,4 @@ jobs:
           tag_name: build-${{ github.run_number }}
           name: Dreamerwordchat build ${{ github.run_number }}
           files: build/app/outputs/flutter-apk/app-release.apk
+uses-material-design: true
